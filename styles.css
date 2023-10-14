@@ -1,0 +1,151 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    background-image: url(img/supra.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 120px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(255, 0, 0, 0.401);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+nav :hover{
+    background-color: rgba(255, 0, 0, 0.401);
+    color: white;
+}
+
+main {
+    height: 500px;
+    text-align: center;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-top: 40px;
+}
+
+main a :hover{
+    background-color: rgba(255, 0, 0, 0.401);
+}
+
+main div :hover{
+    background-color: rgba(255, 0, 0, 0.401);
+}
+
+h1 {
+    font-size: 65px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-right-style: solid;
+    padding: 8px
+}
+
+footer p {
+    background-color: rgba(255, 0, 0, 0.401);
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+}
+
+.map {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hero {
+    padding-top: 35px;
+}
+
+.social {
+    text-align: center;
+}
+
+small {
+    color: white;
+}
+
+/* form page */
+form {
+    color: white;
+    padding-top: 20px;
+}
+input[type=text], select, textarea {
+    background-color: rgba(255, 0, 0, 0.401);
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: white;
+}
+  
+input[type=submit]{
+    background-color: rgba(255, 0, 0, 0.401);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    color: black;
+    background-color: white;
+}
+  
+.contact.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.column {
+    margin-bottom: 16px;
+    color: white;
+    text-align: center;
+}
